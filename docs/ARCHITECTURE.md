@@ -12,6 +12,7 @@ Evidence
        -> Browser Intelligence
        -> Audit / KYB
        -> Defense
+       -> Vulnerability Intelligence
        -> Public Web/API
 
 ## Authority
@@ -36,3 +37,14 @@ different target without an explicit validated relationship.
 
 LUCA preserves an explicit unknown/not-assessed state rather than converting
 missing evidence into a fabricated conclusion.
+
+## Vulnerability evidence boundary
+
+Vulnerability intelligence remains subject to the same evidence model as every
+other LUCA projection.
+
+A vulnerability identifier, technology match, or external advisory may provide
+evidence, but does not independently establish that a specific target is
+currently vulnerable, exploitable, or compromised.
+
+Those states require their own admissible evidence and provenance.
